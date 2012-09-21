@@ -18,7 +18,7 @@
       'cache_dir' => 'cache/',
       'site_name' => 'phpAlbum.net',
       'site_theme' => 'Borders',
-      'return_home_url' => 'www.phpalbum.net',
+      'return_home_url' => 'gopir13.com/',
       'new_dir_indic' => '48',
       'cookie_password_hours' => '168',
       'language' => 'EN_UTF8',

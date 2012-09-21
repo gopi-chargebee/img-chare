@@ -3,9 +3,9 @@
   array (
     'album_dir' => 'photos/',
     'cache_dir' => 'cache/',
-    'site_name' => 'phpAlbum.net',
+    'site_name' => 'gopir13.com',
     'site_theme' => 'Borders',
-    'return_home_url' => 'www.phpalbum.net',
+    'return_home_url' => 'gopir13.com/',
     'new_dir_indic' => '48',
     'cookie_password_hours' => '',
     'language' => 'EN_UTF8',

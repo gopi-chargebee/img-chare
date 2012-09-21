@@ -29,7 +29,7 @@
     'color_map' => '1',
     'logo_path' => 'res/logo.png',
     'logo_style' => 'file',
-    'logo_text' => 'phpAlbum.net',
+    'logo_text' => 'gopir13.com',
     'directory_style' => 'flowing',
     'additional_thmb_height' => '65',
     'additional_thmb_width' => '45',
