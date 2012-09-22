@@ -10,7 +10,7 @@
 	When upgrading you can just leave this file here as is, you most probably have already a
 	config.php which is ok for you.
 */
-$data_dir="data/"; /* !!strongly recommended to use some other directory (security issues)*/
+$data_dir="data_xnhjsdfgfvgnfjhgvhkjfhjkbghjkgujmhtbyhntuykbmhmmhbkjh/"; /* !!strongly recommended to use some other directory (security issues)*/
 
 
 ?>

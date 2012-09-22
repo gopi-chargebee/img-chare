@@ -1,8 +1,8 @@
 <?php  $db_data["setup"] = array (
   0 => 
   array (
-    'album_dir' => 'photos/',
-    'cache_dir' => 'cache/',
+    'album_dir' => 'photos_xnhjsdfgfvgnfjhgvhkjfhjkbghjkgujmhtbyhntuykbmhmmhbkjh/',
+    'cache_dir' => 'cache_xnhjsdfgfvgnfjhgvhkjfhjkbghjkgujmhtbyhntuykbmhmmhbkjh/',
     'site_name' => 'gopir13.com',
     'site_theme' => 'Borders',
     'return_home_url' => 'gopir13.com/',
@@ -10,7 +10,7 @@
     'cookie_password_hours' => '',
     'language' => 'EN_UTF8',
     'ftp_server' => 'localhost',
-    'ftp_server_photos_dir' => '/gallery/photos/',
+    'ftp_server_photos_dir' => '/gallery/photos_xnhjsdfgfvgnfjhgvhkjfhjkbghjkgujmhtbyhntuykbmhmmhbkjh/',
     'default_sorting' => 'name_asc',
     'comments_enabled' => 'true',
     'comments_approve_queue_size' => '100',
@@ -22,7 +22,7 @@
     'statistic_count' => '50',
     'login_enabled' => 'true',
     'register_enabled' => 'true',
-    'last_dir_scan' => '1348244234',
+    'last_dir_scan' => '1348331673',
     'date_format' => 'd.M.Y H:i:s',
     'error_logging_enabled' => 'true',
     'antispam_code_enabled' => 'false',

@@ -3,9 +3,9 @@
   array (
     'id' => '1',
     'name' => 'admin',
-    'password' => '21232f297a57a5a743894a0e4a801fc3',
-    'email' => '',
-    'homepage' => '',
+    'password' => 'dc253a39a8a9f18d08352f8e1ddcd4c0',
+    'email' => 'info@gopir13.com',
+    'homepage' => 'gopir13.com',
     'groups' => 
     array (
       'superuser' => '1',

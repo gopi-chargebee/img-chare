@@ -15,7 +15,10 @@
     'photo_count' => '2',
     'photo_count_r' => '2',
     'icon_path' => '',
-    'groups' => '',
+    'groups' => 
+    array (
+      'guest' => '1',
+    ),
     'inh_groups' => 
     array (
     ),
