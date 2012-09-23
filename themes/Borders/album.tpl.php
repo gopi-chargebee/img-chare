@@ -27,17 +27,19 @@
     <?}?>
     
     <? foreach( $dir_path as $num => $dir ) {?>
-    <a  class="<? print $dir['name']; ?>" href="<? print $dir['link']; ?>"></a>
+    <a title="home" class="<? print $dir['name']; ?>" href="<? print $dir['link']; ?>"></a>
     <? } ?>
     <? if ( $return_home_url != "") { ?>
-      <a class="<? p("ID_HOME"); ?>" href="http://<? print $return_home_url;?>"></a>
+      <a title="gopir13.com" class="<? p("ID_HOME"); ?>" href="http://<? print $return_home_url;?>"></a>
     <? } ?>
     
-    <?if($logged_in){?>
-        <a class="<?p("ID_SETUP");?>" href="main.php?cmd=setup"></a>
-        <a class="<?print $login_logout_text?>" href="<?print $login_logout_link;?>"></a>
-    <?}?>
+    <a title="refresh" class="scan-dir" href="main.php?cmd=setup&var1=dirs&var2=scan_dirs"></a>
     
+    <?if($logged_in){?>
+        <a title="settings" class="<?p("ID_SETUP");?>" href="main.php?cmd=setup"></a>
+        <a title="logout" class="<?print $login_logout_text?>" href="<?print $login_logout_link;?>"></a>
+    <?}?>
+
     <? if($next_page_link){?>
     <a class="me" href="<? print $next_page_link; ?>"><? p("ID_NEXT_PAGE"); ?></a>
     <? }else{?>

@@ -29,7 +29,7 @@ body {
 	margin:0 auto;
 	display:inline-block;
 }
-#menu .Photos, #menu .Home, #menu .Logout, #menu .Setup{
+#menu .Photos, #menu .Home, #menu .Logout, #menu .Setup, #menu .scan-dir{
 	width:20px;
 	height:20px;
 	display:inline-block;
@@ -54,6 +54,9 @@ body {
 #menu .Setup{
 	background-position:0 -40px;
 }
+#menu .scan-dir{
+	background-position:0 -80px;
+}
 
 #menu .Photos:hover{
 	background-position:-20px 0;
@@ -66,6 +69,9 @@ body {
 }
 #menu .Setup:hover{
 	background-position:-20px -40px;
+}
+#menu .scan-dir:hover{
+	background-position:-20px -80px;
 }
 
 .thumb-img{
