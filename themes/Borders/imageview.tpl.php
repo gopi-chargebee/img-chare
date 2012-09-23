@@ -93,13 +93,7 @@
 	 </div>
    </td>
 
-   <? if($display_shadows=="true"){ ?>
-    <td valign="top" background="main.php?cmd=themeimage&var1=shdw_r.png&var2=<?=$pa_color_map["bg_color"]?>"><img src="main.php?cmd=themeimage&var1=shdw_ru.png&var2=<?=$pa_color_map["bg_color"]?>"></td>
-    </tr>
-    <tr>
-   	<td align="left" background="main.php?cmd=themeimage&var1=shdw_d.png&var2=<?=$pa_color_map["bg_color"]?>"><img src="main.php?cmd=themeimage&var1=shdw_ld.png&var2=<?=$pa_color_map["bg_color"]?>"></td>
-   	<td><img src="main.php?cmd=themeimage&var1=shdw_rd.png&var2=<?=$pa_color_map["bg_color"]?>"></td>
-   <?}?>
+
    
    </tr>
    </table>

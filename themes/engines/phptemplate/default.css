@@ -1,5 +1,5 @@
 BODY{
- background-color: <BGCOLOR>;
+ background:#fff url(body-bg.gif);
  font-family: arial,sans-serif;
  font-size: 14px;
 }

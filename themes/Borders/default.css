@@ -1,9 +1,165 @@
 body {
- background-color: <BGCOLOR3>;
+ background:#fff url(themes/engines/phptemplate/body-bg.gif);
  font-family: arial,sans-serif;
  font-size: 12px;
+ margin:0;
 }
 
+#logo{
+	background:url(themes/engines/phptemplate/header-bg.gif);
+    text-align: center;
+    padding: 25px 0;
+	position:fixed;
+	width:100%;
+	top:0;
+	z-index:9999;
+}
+#menu{
+	background:url(themes/engines/phptemplate/bg_nav.png) no-repeat top center;
+	height:57px;
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	padding:10px 0 0;
+	position:fixed;
+	top:110px;
+	z-index:9999;
+}
+#menu .menu-container{
+	margin:0 auto;
+	display:inline-block;
+}
+#menu .Photos, #menu .Home, #menu .Logout, #menu .Setup{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	background:url(themes/engines/phptemplate/nav-sprite.gif) no-repeat;
+	margin:0 35px;
+	float:left;
+}
+#menu .me, #menu b{
+	float:left;
+	padding:3px 0 0;
+	color:#000;
+}
+#menu b{
+	color:#ccc;
+}
+#menu .Home{
+	background-position:0 -20px;
+}
+#menu .Logout{
+	background-position:0 -60px;
+}
+#menu .Setup{
+	background-position:0 -40px;
+}
+
+#menu .Photos:hover{
+	background-position:-20px 0;
+}
+#menu .Home:hover{
+	background-position:-20px -20px;
+}
+#menu .Logout:hover{
+	background-position:-20px -60px;
+}
+#menu .Setup:hover{
+	background-position:-20px -40px;
+}
+
+.thumb-img{
+	display:inline-block;
+	width:289px;
+	height:255px;
+	float:left;
+	background-color:#FFF;
+	margin:14px 12px;
+	border:8px solid #fff;
+	position:relative;
+	text-align:center;
+	background-color:#383838;
+	overflow:hidden;
+	
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+-moz-box-shadow:    0px 0px 7px rgba(0, 0, 0, 0.1);
+box-shadow:         0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+.thumb-img .thumb-detail{
+	display:inline-block;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color:#fff;
+	padding:13px 10px 7px;
+}
+.thumb-img .thumb-detail .thumb-desc{
+	text-decoration:none;
+	font-size:12px;
+	color:#000;
+	float:left;
+	font-weight:bold;
+}
+.thumb-img .thumb-detail .view, .thumb-img .thumb-detail .count{
+	background:url(themes/engines/phptemplate/nav-sprite.gif) no-repeat;
+	display:inline-block;
+	padding:0 0 0 23px;
+	color:#b2b2b2;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+	float:right;
+}
+.thumb-img .thumb-detail .view{
+	background-position:0px -102px;
+}
+.thumb-img .thumb-detail .count{
+	background-position:0px -122px;
+	margin-left:13px;
+}
+
+#footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: black;
+    bottom: 0;
+    border-top: 1px dashed black;
+    padding: 10px 0;
+	margin-top:10px;
+}
+
+#footer > a{
+	color:black;
+	font-weight:bold;
+	margin:0 20px;
+}
+#footer > a:hover{
+	color:#0f3f61;
+}
+
+.login-page{
+	position:fixed;
+	top:200px;
+	left:42%;
+	z-index:99999999;
+}
+
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+#content{
+	margin:190px auto 0;
+	width:940px;
+}
 
 table {
   /* make <td> sizes relative to body size! */

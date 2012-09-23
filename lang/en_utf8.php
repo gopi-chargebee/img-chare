@@ -2,8 +2,8 @@
 $pa_texts=Array(
 "ID_NEXT" => "next",
 "ID_PREV" => "previous",
-"ID_NEXT_PAGE" => "next page",
-"ID_PREV_PAGE" => "previous page",
+"ID_NEXT_PAGE" => "next",
+"ID_PREV_PAGE" => "previous",
 "ID_ALBUM_NAME" => "Photoalbum",
 "ID_PHOTO_DIR" => "Photos",
 "ID_SETUP" => "Setup",
@@ -366,7 +366,7 @@ $pa_texts=Array(
 "ID_MSG_PARAM_EXISTS"=>"Parameter <b>%s</b> already exist. Please use some other name to add parameter.",
 "ID_MSG_PARAM_MANDATORY"=>"Parameter name is mandatory, please enter some name of the new parameter",
 "ID_MSG_USERNAME_MANDATORY"=>"Usernamy is mandatory field!",
-"ID_MSG_VIEW_COUNT"=>"Viewed: %s times",
-"ID_MSG_COMMENT_COUNT"=>"Comments: %s",
+"ID_MSG_VIEW_COUNT"=>"%s",
+"ID_MSG_COMMENT_COUNT"=>"%s",
 );
 ?>

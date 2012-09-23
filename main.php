@@ -1,22 +1,6 @@
 <?
-/****************************************/
-/* (c) 2005 Patrik Jakab                */
-/*    phpAlbum.net                      */
-/*Licence info: GNU/GPL                 */
-/* see file LICENSE                     */
-/****************************************/
-
-/****************************************/
-/*      Constants                       */
-/****************************************/
-/*
-  these are only default values, need not to be changed here because of
-  possibility to change it in setup
-*/
 $phpalbum_version="0.4.1.14";
-define("PHPALBUM_APP","OK");  // if this is setted to DEMO then only superuser can change something in setup.
-								// should be used only for demos i.e. on phpAlbum.net demo page. for normal access use some other value.
-			
+define("PHPALBUM_APP","OK");  // if this is setted to DEMO then only superuser can change something in setup.			
 
 if ( file_exists("config.php")){
     include("config.php");	
@@ -2134,8 +2118,8 @@ $comments=get_comments($var1);
 					}
 					break;
 				case "iptc_credits":
-					if(isset($iptc["2#110"])){
-						$parameters[$param["name"]]=$iptc["2#110"][0];
+					if(isset($iptc["2#292"])){
+						$parameters[$param["name"]]=$iptc["2#292"][0];
 					}
 					break;
 				case "iptc_source":
