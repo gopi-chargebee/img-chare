@@ -22,7 +22,7 @@
     'statistic_count' => '50',
     'login_enabled' => 'true',
     'register_enabled' => 'true',
-    'last_dir_scan' => '1348502211',
+    'last_dir_scan' => '1348506603',
     'date_format' => 'd.M.Y H:i:s',
     'error_logging_enabled' => 'true',
     'antispam_code_enabled' => 'false',

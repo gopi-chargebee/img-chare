@@ -109,26 +109,4 @@
     array (
     ),
   ),
-  293 => 
-  array (
-    'file_name' => 'wallpaper.jpg',
-    'visible' => 'true',
-    'desc' => 'This is short description of picture, may be displayed under the thumbnail of this picture',
-    'long_desc' => 'Enter the long description displayed under this picture together with short description. You can enter also HTML code. For new line use',
-    'params' => 
-    array (
-    ),
-    'dir_logo' => 'true',
-    'view_count' => '51',
-    'vote_count' => '0',
-    'vote_avg' => '0',
-    'comment_count' => '-8',
-    'use_for_logo' => 'false',
-    'file_time' => '1337228845',
-    'screenshot' => '',
-    'type' => 'I',
-    'keywords' => 
-    array (
-    ),
-  ),
 ) ?>
