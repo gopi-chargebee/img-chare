@@ -9,7 +9,7 @@
     array (
     ),
     'dir_logo' => 'true',
-    'view_count' => '24',
+    'view_count' => '26',
     'vote_count' => '0',
     'vote_avg' => '0',
     'comment_count' => '0',

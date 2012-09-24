@@ -2283,7 +2283,6 @@ function get_all_comments(){
 /****************************************/
 
 function generate_footer(){
-     echo "<table width=\"100%\"><tr height=\"100\"><td valign=\"bottom\" align=\"center\" width=\"100%\"><font size=\"2\">Powered by</font></td></tr></table>";
      echo "</body></html>";
 
 }

@@ -48,12 +48,12 @@
 	<?}?>
     </div>
     
-	<? if($short_desc){?>
+<?php /*?>	<? if($short_desc){?>
     <div class="photodesc"><? print $short_desc;?></div>
     <? } ?>
     <? if($long_desc){?>
     <div class="photodesc"><? print $long_desc?></div>
-    <? } ?>
+    <? } ?><?php */?>
     
     <!--? print $parameters; ?-->
     
