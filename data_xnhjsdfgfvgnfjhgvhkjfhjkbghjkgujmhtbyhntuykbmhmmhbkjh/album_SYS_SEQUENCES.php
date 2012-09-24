@@ -20,7 +20,7 @@
   3 => 
   array (
     'name' => 'comment_id',
-    'nextval' => '3',
+    'nextval' => '4',
     'increment' => '1',
   ),
   4 => 

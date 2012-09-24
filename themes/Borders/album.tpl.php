@@ -9,9 +9,7 @@
  <body>
 
 <?if(!$logged_in){?>
-<div class="login-page">
-	<?print $login_dialog?>
-</div>
+    <?print $login_dialog?>
 <?}?>
 
 
@@ -33,9 +31,8 @@
       <a title="gopir13.com" class="<? p("ID_HOME"); ?>" href="http://<? print $return_home_url;?>"></a>
     <? } ?>
     
-    <a title="refresh" class="scan-dir" href="main.php?cmd=setup&var1=dirs&var2=scan_dirs"></a>
-    
     <?if($logged_in){?>
+    	<a title="refresh" class="scan-dir" href="main.php?cmd=setup&var1=pics"></a>
         <a title="settings" class="<?p("ID_SETUP");?>" href="main.php?cmd=setup"></a>
         <a title="logout" class="<?print $login_logout_text?>" href="<?print $login_logout_link;?>"></a>
     <?}?>

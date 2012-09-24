@@ -302,7 +302,7 @@ $pa_texts=Array(
 "ID_SYS_PAR_SIZ"=>"%s KB",
 "ID_SYS_PAR_DIM"=>"%s x %s ( W x H )",
 "ID_SYS_PAR_FNM"=>"%s",
-"ID_SYS_PAR_FNL"=>"<a class=\"me3\" href=\"%s\" target=\"_blank\">%s</a> (click to download original file)",
+"ID_SYS_PAR_FNL"=>"<a class=\"me3\" href=\"%s\" target=\"_blank\">%s</a>",
 "ID_SYS_PAR_DWL"=>"<a class=\"me3\" href=\"%s\" target=\"_blank\">(click to download original file)</a>",
 "ID_SYS_PAR_CDT"=>"%s",
 "ID_SYS_PAR_EXIF_F"=>"F %s",

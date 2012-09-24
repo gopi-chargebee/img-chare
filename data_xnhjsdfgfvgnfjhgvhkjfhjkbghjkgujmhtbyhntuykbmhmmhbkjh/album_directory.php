@@ -12,8 +12,8 @@
     'vote_count' => '0',
     'vote_avg' => '0',
     'comment_count' => '0',
-    'photo_count' => '5',
-    'photo_count_r' => '5',
+    'photo_count' => '6',
+    'photo_count_r' => '6',
     'icon_path' => '',
     'groups' => 
     array (
